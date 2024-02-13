@@ -2,6 +2,12 @@
     --anim-d: 5s;
 }
 
+.step {
+    filter: none !important;
+    transform-style: preserve-3d !important;
+    backface-visibility: hidden !important;
+}
+
 .step > h1 {
     text-align: center;
     font-size: 5vh;
