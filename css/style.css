@@ -1,0 +1,63 @@
+:root{
+    --anim-d: 5s;
+}
+
+.step > h1 {
+    text-align: center;
+    font-size: 5vh;
+}
+
+.step > h3 {
+    text-align: left;
+    font-size: 3vh;
+}   
+
+.step > p {
+    text-align: left;
+    font-size: 2vh;
+}
+
+.step > li {
+    text-align: left;
+    font-size: 2vh;
+}
+
+.step.present #first{
+    animation: first var(--anim-d);
+}
+
+@keyframes first {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.step.present #second{
+    animation: second var(--anim-d);
+}
+
+@keyframes second {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.step.present #third{
+    animation: third var(--anim-d);
+}
+
+@keyframes third {
+    0% {opacity: 0;}
+    60% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.step.present #fourth{
+    animation: fourth var(--anim-d);
+}
+
+@keyframes fourth {
+    0% {opacity: 0;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
